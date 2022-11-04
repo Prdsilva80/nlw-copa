@@ -24,7 +24,7 @@
 
 - Configurar a aparencia do VScode
 - Trabalhar com as informações do Figma
-- Compreender melhor a melhor as animações no CSS
+- Compreender melhor as animações no CSS
 - Como refatorar as informações no JavaScript
 
 # 📧 Contato
