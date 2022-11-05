@@ -1,9 +1,15 @@
 function createGame(player1, hour, player2) {
   return `
   <li>
-    <img src="./assets/icon-${player1}.svg" alt="Bandeira da ${player1}" />
-    <strong>${hour}</strong>
-    <img src="./assets/icon-${player2}.svg" alt="Bandeira do ${player2}" />
+    <figure>
+      <img src="./assets/icon-${player1}.svg" alt="Bandeira da ${player1}">
+      <figcaption>${player1}</figcaption>
+    </figure>
+     <strong>${hour}</strong>
+    <figure>
+      <img src="./assets/icon-${player2}.svg" alt="Bandeira do ${player2}">
+      <figcaption>${player2}</figcaption>
+    </figure>
   </li>
   `
 }
@@ -24,6 +30,6 @@ function createCard(date, day, games) {
 
 document.querySelector("#cards").innerHTML = 
   
-    createCard("23/11", "quarta", createGame("germany", "10:00", "japan")) +
-    createCard("27/11", "domingo", createGame("spain", "16:00", "germany")) +
-    createCard("01/12", "quinta", createGame("costa-rica", "16:00", "germany"))
+    createCard("23/11", "quarta", createGame("alemanha", "10:00", "japão")) +
+    createCard("27/11", "domingo", createGame("espanha", "16:00", "alemanha")) +
+    createCard("01/12", "quinta", createGame("costa-rica", "16:00", "alemanha"))

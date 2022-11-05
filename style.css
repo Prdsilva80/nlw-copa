@@ -38,6 +38,7 @@ body {
 
 body * {
   font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 #app {
@@ -46,7 +47,7 @@ body * {
 }
 
 header {
-  margin-bottom: 63px;
+  margin-bottom: 53px;
   text-align: center;
 }
 
