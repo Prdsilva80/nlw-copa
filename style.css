@@ -47,8 +47,12 @@ body * {
 }
 
 header {
-  margin-bottom: 53px;
   text-align: center;
+  user-select: none;
+}
+
+header .logo {
+  width: 120px;
 }
 
 #cards {
