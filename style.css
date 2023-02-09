@@ -5,6 +5,8 @@
 }
 
 :root {
+  font-size: 62,5%;
+
   --card-title-border-color: #746615;
   --card-color-primary: #F7DD43;
   --card-bg-color: #1D1C19;
@@ -44,7 +46,7 @@ body * {
 
 #app {
   width: fit-content;
-  margin: 52px auto;
+  margin: 5.2rem auto;
 }
 
 header {
@@ -53,7 +55,7 @@ header {
 }
 
 header .logo {
-  width: 120px;
+  width: 12.0rem;
 }
 
 #cards {
@@ -63,38 +65,38 @@ header .logo {
 }
 
 .card {
-  padding: 32px 23px;
+  padding: 3.2rem 2.3rem;
   text-align: center;
   background: var(--card-bg-color);
-  border-bottom: 2px solid var(--card-color-primary);
-  border-radius: 6px;
+  border-bottom: .2rem solid var(--card-color-primary);
+  border-radius: .6rem;
 }
 
 .card h2 {
   display: flex;
-  gap: 16px;
+  gap: 1.6rem;
   justify-content: center;
   align-items: center;
-  padding: 8px 16px;
+  padding: .8rem 1.6rem;
   border: 1px solid var(--card-title-border-color);
-  border-radius: 6px;
+  border-radius: .6rem;
   width: fit-content;
   margin-inline: auto;
-  margin-bottom: 53px;
+  margin-bottom: 5.3rem;
   color: #F7DD43;
 }
 
 .card h2 span {
   color: #E1E1E6;
-  font-size: 14px;
+  font-size: 1.4rem;
   text-transform: uppercase;
 }
 
 .card ul {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  width: 270px;
+  gap: 2.4rem;
+  width: 27.0rem;
 }
 
 .card ul li {
@@ -104,13 +106,13 @@ header .logo {
 }
 
 .card ul li + li {
-  padding-top: 24px;
+  padding-top: 2.4rem;
   border-top: 1px solid #323238;
 }
 
 .card ul li strong {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 3.6rem;
   line-height: 125%;
   color: #E1E1E6;
 }
@@ -141,9 +143,9 @@ header .logo {
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 40.0rem) {
   #cards {
-    max-width: 670px;
+    max-width: 67.0rem;
     flex-direction: row;
     flex-wrap: wrap;
   }
